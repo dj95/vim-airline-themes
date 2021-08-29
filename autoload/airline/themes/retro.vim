@@ -41,7 +41,7 @@ let g:airline#themes#retro#palette.normal_modified = s:modified
 " INSERT MODE ---------------------------------------------------------------{{{
 let s:I1 = [ s:guiGreen , s:guiGray  , s:ctermRed       , s:ctermGray ]
 let s:I2 = [ s:guiBlack , s:guiGray  , s:ctermLightgray , s:ctermGray ]
-let s:I3 = [ s:guiGreen , s:guiBlack , s:ctermWhite     , s:ctermGray ]
+let s:I3 = [ s:guiGreen , s:guiGray  , s:ctermWhite     , s:ctermGray ]
 let g:airline#themes#retro#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#retro#palette.insert_modified = s:modified
 " }}}
